@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recetas de Cocina</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Raleway:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f3f4f6;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #ff8c00, #ffcc00);
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      margin: 0;
+      font-size: 3em;
+      color: white;
+    }
+    nav {
+      margin: 20px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ff8c00;
+    }
+    section {
+      display: flex;
+      padding: 20px;
+      margin: 20px 10%;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    section:hover {
+      transform: scale(1.02);
+    }
+    .recipe-details {
+      flex: 1;
+      padding-right: 20px;
+    }
+    img {
+      max-width: 200px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      font-family: 'Raleway', sans-serif;
+      color: #ff8c00;
+      margin-bottom: 10px;
+    }
+    h3 {
+      margin-bottom: 5px;
+      font-weight: 500;
+    }
+    ul {
+      list-style-type: square;
+      margin: 0;
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ff8c00;
+      color: #fff;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    @media (max-width: 768px) {
+      section {
+        flex-direction: column;
+        margin: 10px;
+      }
+      img {
+        max-width: 100%;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Recetas de Cocina</h1>
+  <nav>
+    <a href="#paella">Paella Valenciana</a>
+    <a href="#enchiladas">Enchiladas Verdes</a>
+    <a href="#curry">Curry de Pollo</a>
+    <a href="#sopa">Sopa de Ajo</a>
+    <a href="#tiramisu">Tiramisú</a>
+  </nav>
+</header>
+
+<section id="paella">
+  <div class="recipe-details">
+    <h2>1. Paella Valenciana</h2>
+    <h3>Ingredientes:</h3>
+    <ul>
+      <li>400 g de arroz</li>
+      <li>800 ml de caldo de pollo o pescado</li>
+      <li>200 g de conejo troceado</li>
+      <li>200 g de pollo troceado</li>
+      <li>150 g de judía verde (ferraura)</li>
+      <li>100 g de garrofón</li>
+      <li>2 tomates maduros</li>
+      <li>1 pimiento rojo</li>
+      <li>2 dientes de ajo</li>
+      <li>Aceite de oliva</li>
+      <li>Azafrán o colorante</li>
+      <li>Sal y pimienta</li>
+    </ul>
+    <h3>Preparación:</h3>
+    <ol>
+      <li>En una paellera, calienta aceite de oliva y dora el pollo y conejo. Reserva.</li>
+      <li>En el mismo aceite, sofríe judías verdes, pimiento, ajos y tomate.</li>
+      <li>Agrega el arroz y mezcla con el sofrito, luego reincorpora la carne.</li>
+      <li>Vierte el caldo, añade garrofón y azafrán. Cocina 20 minutos sin remover.</li>
+      <li>Deja reposar unos minutos antes de servir.</li>
+    </ol>
+  </div>
+  <img src="URL_DE_LA_IMAGEN_DE_PAELLA" alt="Paella Valenciana">
+</section>
+
+<section id="enchiladas">
+  <div class="recipe-details">
+    <h2>2. Enchiladas Verdes</h2>
+    <h3>Ingredientes:</h3>
+    <ul>
+      <li>12 tortillas de maíz</li>
+      <li>500 g de pechuga de pollo cocida y desmenuzada</li>
+      <li>400 g de tomatillo</li>
+      <li>2 chiles serranos</li>
+      <li>1 diente de ajo</li>
+      <li>½ cebolla</li>
+      <li>200 g de crema</li>
+      <li>200 g de queso fresco desmenuzado</li>
+      <li>Aceite vegetal</li>
+      <li>Sal</li>
+    </ul>
+    <h3>Preparación:</h3>
+    <ol>
+      <li>Cocina tomatillos y chiles, licúa con cebolla, ajo y sal.</li>
+      <li>Fría las tortillas en aceite caliente y resérvalas.</li>
+      <li>Rellena las tortillas con pollo, enrolla y coloca en un plato.</li>
+      <li>Cubre con la salsa caliente, crema y queso fresco.</li>
+    </ol>
+  </div>
+  <img src="URL_DE_LA_IMAGEN_DE_ENCHILADAS" alt="Enchiladas Verdes">
+</section>
+
+<section id="curry">
+  <div class="recipe-details">
+    <h2>3. Curry de Pollo con Arroz Basmati</h2>
+    <h3>Ingredientes:</h3>
+    <ul>
+      <li>500 g de pechuga de pollo</li>
+      <li>1 cebolla grande</li>
+      <li>2 dientes de ajo</li>
+      <li>1 trozo de jengibre fresco (2 cm)</li>
+      <li>2 cucharadas de curry en polvo</li>
+      <li>400 ml de leche de coco</li>
+      <li>300 g de arroz basmati</li>
+      <li>Aceite vegetal</li>
+      <li>Sal y pimienta</li>
+    </ul>
+    <h3>Preparación:</h3>
+    <ol>
+      <li>Pica cebolla, ajo y jengibre. Corta el pollo en cubos.</li>
+      <li>Sofríe el pollo en aceite hasta dorar y reserva.</li>
+      <li>En la misma sartén, sofríe cebolla, ajo y jengibre. Añade curry y leche de coco.</li>
+      <li>Cocina arroz basmati según instrucciones del paquete.</li>
+      <li>Agrega pollo a la salsa y cocina unos minutos más.</li>
+    </ol>
+  </div>
+  <img src="URL_DE_LA_IMAGEN_DE_CURRY" alt="Curry de Pollo">
+</section>
+
+<section id="sopa">
+  <div class="recipe-details">
+    <h2>4. Sopa de Ajo</h2>
+    <h3>Ingredientes:</h3>
+    <ul>
+      <li>8 dientes de ajo</li>
+      <li>150 g de pan duro</li>
+      <li>1 litro de caldo de pollo</li>
+      <li>4 huevos</li>
+      <li>100 g de jamón serrano en taquitos</li>
+      <li>1 cucharada de pimentón dulce</li>
+      <li>Aceite de oliva</li>
+      <li>Sal y pimienta</li>
+    </ul>
+    <h3>Preparación:</h3>
+    <ol>
+      <li>Sofríe los ajos en aceite hasta dorar.</li>
+      <li>Agrega pimentón y pan, sofríe unos minutos.</li>
+      <li>Incorpora caldo y cocina 15 minutos.</li>
+      <li>Agrega jamón y huevos, cocina hasta cuajar las claras.</li>
+    </ol>
+  </div>
+</section>
